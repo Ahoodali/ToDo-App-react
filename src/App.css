@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-image: url('./assets/image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items:center solid;
+  justify-content: flex-start;
+  width:90%;
+  margin: 0 auto;
+  gap: 15px;
+  padding: 20px;
+  font-size: 50;
+  font-weight: 500;
+  
+}
+
+h1 {
+  font-size: 60px;
+  text-align:left;
+  color:#510f0f;
+  font-size: 70px;
+}
+
+.input-box {
+  
+  display: flex;
+  width: 60px;
+  min-width: 1400px;
+  margin: 10px;
+  gap: 10bx;
+
+
+}
+
+.input-box input {
+  display: flex;
+  font-size:20px ;
+  text-align: center;
+  width: 50px;
+  border: 5px solid #510f0f;
+ background-color: rgb(215, 166, 188);
+ margin-right: 2px;
+
+}
+
+.input-box button{
+  margin-left: 4px;
+border: 6px;
+background: #510f0f;
+border: 2px solid black;
+  font-size: 15px;
+  width: 10bx;
+}
+
+ul {
+  width: 100;
+  max-width: 500px;
+  padding: 1px;
+  list-style: none ;
+  min-width: 1200px;
+  
+
+
+  
+  
+}
+
+li {
+  border: 3px solid black;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+word-wrap: break-word;
+padding: 15px;
+margin-bottom: 10px;
+box-sizing: border-box;
+border-radius: 8px;
+ background-color: rgb(215, 166, 188);
+}
+
+.left span{
+  flex: 1;
+  word-break: break-all;
+overflow: hidden;
+margin-left: 10px;
+
+
+}
+
+.completed {
+  text-decoration: line-through;
+  color:#0a0d11;
+  
+}
+
+.actions button {
+  border: none;
+  background:rgb(75, 9, 19);
+  cursor: pointer;
+  font-size: 10px;
+  margin-left: 5px;
+  
+  
+}
+.date {
+  margin-top: 10px;
+  margin-bottom: 20;
+  font-size: 20px;
+  font-weight:  #510f0f;
+}
+ul li input[type="checkbox"] {
+  accent-color: #793636; /* يمكنك استبدال هذا الكود بأي لون تريده لبقية المربع وعلامة الصح */
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  
+  
+}
+
+.filters {
+
+  display:flex;
+  justify-content: center;
+  height: 50px;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.filters button {
+  padding: 8px 14px;
+  border: 3px solid black ;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #510f0f;
+    min-width: 410px;
+    font-size: 20px;
+
+}
+
+
+.completed {
+  text-decoration: line-through;
+  font: size 25px; ;
+}
+h2{  min-width: 1250px;
+  font-size: 35PX;
+  color: #510f0f;
+}
+
+
